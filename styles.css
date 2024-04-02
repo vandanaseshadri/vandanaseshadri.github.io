@@ -46,7 +46,7 @@ li a{
 }
 
 .bio {
-  padding: 6% 0 0 6%;
+  padding: 6% 0 0 15%;
 }
 
 .more-content {
@@ -94,6 +94,6 @@ a:active {
 
 p {
   padding-top: 1%;
-  padding-right: 15%;
+  padding-right: 10%;
   padding-left: 15%;
 }
