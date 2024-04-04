@@ -42,7 +42,7 @@ li a{
 }
 
 .bio {
-  padding: 6% 0 0 6%;
+  padding: 6% 0 0 15%;
 }
 
 .more-content {
@@ -114,6 +114,7 @@ a:active {
   height: 300px;
   cursor: pointer;
   position: relative;
+  list-style-type: none;
 }
 
 .image-gallery li img {
