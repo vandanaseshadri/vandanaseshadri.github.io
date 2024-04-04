@@ -1,6 +1,5 @@
 body {
     padding: 1rem;
-    /* text-align: center; */
     background-color: #ffffff;
 }
 
@@ -22,10 +21,6 @@ body {
   transform: translateY(-50%);
 }
 
-ul {
-  list-style-type: none;
-}
-
 li {
   line-height: 160%;
 }
@@ -36,6 +31,7 @@ li a{
 
 .menu {
   padding: 5% 0 0 2%;
+  list-style-type: none;
 }
 
 .container {
@@ -46,7 +42,7 @@ li a{
 }
 
 .bio {
-  padding: 6% 0 0 15%;
+  padding: 6% 0 0 6%;
 }
 
 .more-content {
@@ -66,10 +62,6 @@ figure {
 .contact-info {
   text-align: center;
   padding: 13.5% 34% 0 0;
-}
-
-.abt {
-  color: black;
 }
 
 img {
@@ -92,12 +84,24 @@ a:active {
   text-decoration: none;
 }
 
-p {
+.abt {
   padding-top: 1%;
-  padding-right: 10%;
+  padding-right: 15%;
   padding-left: 15%;
 }
 
+.tvac {
+  margin: 6% 20% 0 29%;
+  max-width: fit-content;
+}
+
+.tvac-desc {
+  margin-top: 2%;
+}
+
+.project-heading {
+  padding: 0% 0% 1% 0%;
+}
 
 .image-gallery {
   display: flex;
@@ -107,7 +111,6 @@ p {
 }
 
 .image-gallery > li {
-  /* flex: 1 1 auto; */
   height: 300px;
   cursor: pointer;
   position: relative;
@@ -124,4 +127,19 @@ p {
 .image-gallery::after {
   content: "";
   flex-grow: 999;
+}
+
+.carousel-item {
+  height: 400px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  top: 50%;
+  bottom: 50%;
+}
+
+#logo {
+  color: #000000;
 }
