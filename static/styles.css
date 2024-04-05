@@ -78,7 +78,6 @@ a:visited {
 
 a:hover {
   text-decoration: none;
-  /* cursor: pointer; */
 }
 
 a:active {
@@ -154,20 +153,21 @@ a:active {
   margin: 0% 0% 2% 0%;
 }
 
-#header {
-  display: inline-block;
-}
-
 #enlarge {
   margin: 2% 0% 0% 37%;
 }
 
 #backlink {
-  margin: 6% 0% 0% 32%;
+  margin: 6% 0% -1% 31%;
 }
 
-#test {
-  cursor: pointer;
+#back {
+  color: #808080;
+  font-size: 1.1rem;
+}
+
+#back:hover {
+  color: #0a58ca;
 }
 
 .project-date {
