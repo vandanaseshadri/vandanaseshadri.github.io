@@ -42,7 +42,7 @@ li a{
 }
 
 .bio {
-  padding: 6% 0 0 15%;
+  padding: 6% 0 0 6%;
 }
 
 .more-content {
@@ -90,7 +90,7 @@ a:active {
   padding-left: 15%;
 }
 
-.tvac {
+.projects {
   margin: 6% 20% 0 29%;
   max-width: fit-content;
 }
@@ -144,3 +144,15 @@ a:active {
 #logo {
   color: #000000;
 }
+
+.date {
+  margin: -1% 0% 2% 0%;
+}
+
+#audiophile {
+  margin: 0% 0% 2% 0%;
+}
+
+#header {
+  display: inline;
+ }
