@@ -78,6 +78,7 @@ a:visited {
 
 a:hover {
   text-decoration: none;
+  /* cursor: pointer; */
 }
 
 a:active {
@@ -154,5 +155,26 @@ a:active {
 }
 
 #header {
-  display: inline;
- }
+  display: inline-block;
+}
+
+#enlarge {
+  margin: 2% 0% 0% 37%;
+}
+
+#backlink {
+  margin: 6% 0% 0% 32%;
+}
+
+#test {
+  cursor: pointer;
+}
+
+.project-date {
+  margin-top: 2.5%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
